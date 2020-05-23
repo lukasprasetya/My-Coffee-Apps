@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyCoffee</string>
+    <string name="my_coffee">My Coffee</string>
+    <string name="my_name">Lukas Prasetya</string>
+    <string name="myy_location">Yogyakarta, Indonesia</string>
+    <string name="tv_title_about">Get To Know About Me</string>
+    <string name="detail_about_me">Hi, I am Lukas from Yogyakarta. I am 25 years old this year, and I really want to learn Android dev.
+    Last year I supposed to get Android Developer free course at one of Programming Course in Yogyakarta, but its canceled because some reason.
+        I hope by following class from Dicoding I can master Android Developer.
+    </string>
+    <string name="my_email">My Email</string>
+    <string name="email_lukas">LUKASPRASETYA1208@GMAIL.COM</string>
+    <string name="tv_cafe_name">Tanamera</string>
+    <string name="tv_cafe_subname">Champion International Roaster Champion International Roaster </string>
+    <string name="rating">5</string>
+    <string name="cafe_address">GK 5 1053B, Jl. Sagan Tim., Terban, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55223</string>
+    <string name="about_me">In Our View</string>
+    <string name="aboutcafe">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="review">REVIEW</string>
+    <string name="detail_review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+</resources>

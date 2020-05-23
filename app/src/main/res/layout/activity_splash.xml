@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SplashActivity"
+    android:background="@drawable/back_gradient">
+
+    <ImageView
+        android:id="@+id/iv_cup"
+        android:layout_width="202dp"
+        android:layout_height="202dp"
+        android:layout_marginBottom="60dp"
+        app:srcCompat="@drawable/ic_hot_drink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_mc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/my_coffee"
+        app:layout_constraintTop_toBottomOf="@id/iv_cup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        android:textSize="64sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/humble_cafe"
+        android:layout_marginTop="12dp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

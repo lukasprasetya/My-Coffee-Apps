@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_item_cafe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="18dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackgroundCard"
+        android:elevation="4dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_cafe"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:src="@drawable/ic_lantaibumi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_cafe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:fontFamily="@font/poppins"
+            android:text="Lantai Bumi"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="@dimen/title_size"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/tv_cafe_subname"
+            app:layout_constraintStart_toEndOf="@+id/civ_cafe"
+            app:layout_constraintTop_toTopOf="@+id/civ_cafe" />
+
+        <TextView
+            android:id="@+id/tv_cafe_subname"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="Menyatu Dengan Tanah"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="@dimen/subtitle_size"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="@id/civ_cafe"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tv_cafe_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_cafe_name" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
